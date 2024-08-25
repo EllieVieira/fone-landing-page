@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: auto;
+    margin-left: 50px;
+
+}
+
+.menu {
+    margin: 20px;
+    
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: #343434;
+    
+}
+
+a:hover{
+    color: #ca3b3a;
+
+
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section-1,
+.section-2 {
+    align-content: center;
+
+}
+
+.img-fone {
+    width: auto;
+    height: 500px;
+
+
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #ca3b3a;
+    margin-bottom: 30px;
+}
+
+.stars{
+    color: #ca3b3a;
+    font-weight: 700;
+}
+
+.text1 {
+    font-weight: 800;
+    margin: 20px 0 0;
+}
+
+.text2{
+    color: #707070 ;
+}
+
+.button-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+
+}
+
+.price {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+button {
+    background-color: #ca3b3a;
+    color: white;
+    padding: 10px 30px;
+}
+
+footer{
+    margin-bottom: 0;
+    
+    background-color: black;
+}
+
+.footer-box{
+    background-color: #FCF7DA;
+    margin: 0 100px;
+    display: flex;
+    justify-content: center;
+  
+    
+
+}
+
+.div1,
+.div2,
+.div3 {
+  padding: 20px 100px;
+  font-size: 14px;
+}
+
+
+
+
+
+#D01C26 botao e estrelas 
+#D32C35 texto 
+#FCF7DA amarelo footer 
+#7C7C7C texto
